@@ -7,8 +7,8 @@ public enum DatabaseDefinition implements DatabaseDefinitionIF {
 	//Windows colmatec321 : D:\\Perso\\Programmes\\Debitage
 	//Linux inspiron1720 : /home/philippe/Programmes/Debitage
 	
-	DEBITAGE_SQLITE("/home/philippe/Programmes/Debitage", "debitage.db", DBType.SQLite), 
-	ADDRESSBOOK_SQLITE("/home/philippe/Programmes/Debitage", "addressBook.db", DBType.SQLite),
+	DEBITAGE_SQLITE("D:\\Philippe\\Programmes\\eclipse\\debitage", "debitage.db", DBType.SQLite), 
+	ADDRESSBOOK_SQLITE("D:\\Philippe\\Programmes\\eclipse\\debitage", "addressBook.db", DBType.SQLite),
 
 	DEBITAGE_MYSQL("localhost", "debitage", DBType.MySQL),
 	ADDRESSBOOK_MYSQL("localhost", "addressBook", DBType.MySQL),

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/SDK"/>
-	<classpathentry kind="lib" path="/SDK/lib/miglayout-swing.jar">
+	<classpathentry combineaccessrules="false" kind="src" path="/sdk"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/sdk/lib/miglayout-swing.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:platform:/resource/SDK/javadoc/miglayout-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="jar:platform:/resource/sdk/javadoc/miglayout-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
