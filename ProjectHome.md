@@ -1,0 +1,1 @@
+Outil pour calculer le débitage d'armoires basé sur des règles simples.
